@@ -18,7 +18,7 @@ window.PROFILE_CONFIG = {
       alt: "Portrait of Emmanuel Olusoga",
     },
     about: {
-      heading: "Short Introduction",
+      heading: "Short Intro",
       text: "I combine front-end development, design, and analytical thinking to create clear, responsive digital experiences. I enjoy turning people’s needs into useful interfaces with thoughtful visual detail.",
     },
     location: "Lagos, Nigeria",
