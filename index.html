@@ -7,6 +7,18 @@
     <meta name="description" content="" data-profile-meta="description" />
     <meta name="theme-color" content="#f4f6fa" />
 
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("profile-card-theme");
+          document.documentElement.dataset.theme =
+            savedTheme === "dark" ? "dark" : "light";
+        } catch {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
+
     <title data-profile="pageTitle"></title>
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
