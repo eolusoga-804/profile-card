@@ -40,9 +40,22 @@ function getHref(key) {
   return contact[key];
 }
 
+function addIcon(element, iconClasses) {
+  const icon = document.createElement("i");
+  icon.className = iconClasses;
+  icon.setAttribute("aria-hidden", "true");
+  element.append(icon);
+}
+
 function addExternalAttributes(link) {
   link.target = "_blank";
   link.rel = "noopener noreferrer";
+}
+
+function addVisibleLabel(element, text) {
+  const label = document.createElement("span");
+  label.textContent = text;
+  element.append(label);
 }
 
 const socialNavigation = document.querySelector(
@@ -54,7 +67,12 @@ config.socials.forEach((social) => {
   const link = document.createElement("a");
   link.className = "profile-card__social-link";
   link.href = getHref(social.href);
-  link.textContent = social.label;
+
+  if (social.icon) {
+    addIcon(link, social.icon);
+  }
+
+  addVisibleLabel(link, social.label);
 
   if (social.modifier) {
     link.classList.add(`profile-card__social-link--${social.modifier}`);
@@ -73,7 +91,12 @@ config.actions.forEach((action) => {
   const link = document.createElement("a");
   link.className = "profile-card__button";
   link.href = getHref(action.href);
-  link.textContent = config.labels[action.label];
+
+  if (action.icon) {
+    addIcon(link, action.icon);
+  }
+
+  addVisibleLabel(link, config.labels[action.label]);
 
   if (action.modifier) {
     link.classList.add(`profile-card__button--${action.modifier}`);

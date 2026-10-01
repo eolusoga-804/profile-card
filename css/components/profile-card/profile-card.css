@@ -206,3 +206,15 @@
   position: relative;
   z-index: 1;
 }
+
+.profile-card__social-link,
+.profile-card__button,
+.theme-toggle {
+  gap: 0.55rem;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

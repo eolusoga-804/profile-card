@@ -38,6 +38,8 @@ window.PROFILE_CONFIG = {
     switchToDark: "Switch to dark theme",
     useLight: "Use light theme",
     useDark: "Use dark theme",
+    themeIconLight: "fa-solid fa-sun",
+    themeIconDark: "fa-solid fa-moon",
   },
 
   socials: [
@@ -46,25 +48,30 @@ window.PROFILE_CONFIG = {
       href: "whatsapp",
       modifier: "whatsapp",
       external: true,
+      icon: "fa-brands fa-whatsapp",
     },
     {
       label: "Phone",
       href: "phone",
+      icon: "fa-solid fa-phone",
     },
     {
       label: "LinkedIn",
       href: "linkedin",
       external: true,
+      icon: "fa-brands fa-linkedin-in",
     },
     {
       label: "GitHub",
       href: "github",
       external: true,
+      icon: "fa-brands fa-github",
     },
     {
       label: "Portfolio",
       href: "portfolio",
       external: true,
+      icon: "fa-solid fa-globe",
     },
   ],
 
@@ -74,12 +81,14 @@ window.PROFILE_CONFIG = {
       href: "whatsapp-message",
       modifier: "whatsapp",
       external: true,
+      icon: "fa-brands fa-whatsapp",
     },
     {
       label: "resumeButton",
       href: "resume",
       modifier: "secondary",
       download: true,
+      icon: "fa-solid fa-download",
     },
   ],
 };

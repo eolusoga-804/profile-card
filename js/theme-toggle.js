@@ -15,8 +15,6 @@ if (themeToggle && profileConfig) {
   }
 
   function applyTheme(theme, shouldSave = false) {
-    const nextTheme = theme === "dark" ? "light" : "dark";
-
     document.documentElement.dataset.theme = theme;
     themeToggle.setAttribute("aria-pressed", String(theme === "dark"));
     themeToggle.setAttribute(
@@ -25,10 +23,21 @@ if (themeToggle && profileConfig) {
         ? profileConfig.labels.switchToLight
         : profileConfig.labels.switchToDark,
     );
-    themeToggle.textContent =
+
+    const themeIcon = document.createElement("i");
+    themeIcon.className =
+      theme === "dark"
+        ? profileConfig.labels.themeIconLight
+        : profileConfig.labels.themeIconDark;
+    themeIcon.setAttribute("aria-hidden", "true");
+
+    const themeLabel = document.createElement("span");
+    themeLabel.textContent =
       theme === "dark"
         ? profileConfig.labels.useLight
         : profileConfig.labels.useDark;
+
+    themeToggle.replaceChildren(themeIcon, themeLabel);
 
     if (shouldSave) {
       try {
@@ -37,8 +46,6 @@ if (themeToggle && profileConfig) {
         // The selected theme still applies for the current page view.
       }
     }
-
-    return nextTheme;
   }
 
   applyTheme(getSavedTheme());
