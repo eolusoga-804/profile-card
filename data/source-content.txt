@@ -1,0 +1,324 @@
+Titles: FRONT-END DEVELOPER REACT.JS DEVELOPER UI/UX DESIGNER GRAPHIC DESIGNER
+
+Name: Emmanuel Olusoga .A (Emmanuel#804)
+
+About: Passionate frontend developer who enjoys creating modern, responsive and accessible websites with HTML, CSS and JavaScript.SCAN ME
+Scan to view my
+portfolio
+FRONT-END DEVELOPER REACT.JS DEVELOPER UI/UX DESIGNER GRAPHIC DESIGNER
+CURRICULUM VITAE · RESUME
+EMMANUEL OLUSOGA .A
+FRONT-END DEVELOPER | REACT.JS DEVELOPER | UI/UX DESIGNER | GRAPHIC DESIGNER
+ Lagos, Lagos State, Nigeria  +234 907 439 5764  +234 912 441 6909
+✉ eolusoga2@gmail.com  emmanuel-804.netlify.app  linkedin.com/in/emmanuel-olusoga
+Freelance · Remote · Contract · Full-time
+PROFESSIONAL SUMMARY
+Creative and detail-oriented Front-end developer, React.js developer, UI/UX designer and graphic designer with a
+multidisciplinary background spanning software engineering studies, responsive web development and professional
+visual design. Experienced in creating identity and marketing materials, social media graphics, print collateral and
+web assets, while also developing interactive interfaces that bring visual concepts into practical use.
+Uses HTML5, CSS3, JavaScript and React to create responsive, interactive digital experiences. Brings a design-led
+approach to front-end work, considering information hierarchy, typography, spacing, navigation and consistency
+alongside technical structure. Familiar with reusable component patterns, responsive layouts, semantic markup,
+accessibility awareness, cross-browser considerations and performance-conscious implementation.
+Professional graphic design experience at Yumarib Concept includes collaborating with senior designers on
+branding and promotional work, producing digital and print materials, and managing several assignments while
+maintaining quality and deadlines. This work strengthened practical skills in composition, color theory, feedback,
+communication and adapting visual output to different audiences and formats.
+Combines analytical thinking developed through Industrial Mathematics with creative judgment and a user-centered
+mindset. Values clear communication, reliability, constructive feedback and continuous learning. Seeks
+opportunities to contribute thoughtful design and dependable front-end implementation while continuing to grow
+across software development, user experience and visual communication.
+PROFESSIONAL EXPERIENCE
+Graphic Design Intern / Junior Graphic Designer
+Yumarib Concept · Shomolu, Lagos, Nigeria
+October 2020 – December 2025
+Worked with senior designers on branding, promotional and marketing work for digital and print. Developed visual
+assets for campaigns, social media and websites, applying design fundamentals and responding to project
+feedback.
+Designed digital and print marketing materials for client campaigns.
+Created promotional graphics for advertisements, flyers, brochures, posters, banners and business cards.
+Produced social media graphics aligned with brand identity and campaign goals.
+Collaborated with senior designers on branding, promotional and web design projects.
+Created website banners, icons, illustrations and other digital assets for online campaigns.
+Applied typography, color theory, layout and composition to create clear, visually engaging designs.
+Managed several design assignments while meeting deadlines and maintaining quality.
+Incorporated feedback and contributed ideas throughout the design process.
+Built experience with client communication, constructive criticism and adapting to changing requirements.
+AREAS OF EXPERTISE
+FRONT-END DEVELOPMENT
+Responsive website
+development
+Mobile-first layouts
+Semantic HTML
+Interactive user
+interfaces
+Reusable components
+Cross-browser
+compatibility
+Accessibility awareness
+Clean and maintainable
+code
+UI / UX DESIGN
+User interface design
+Wireframing and
+prototyping
+User flows
+Information architecture
+Visual hierarchy
+Usability-focused
+layouts
+Responsive interfaces
+Design consistency
+GRAPHIC DESIGN
+Brand identity and logos
+Social media graphics
+Print design
+Flyers and posters
+Business cards
+Marketing assets
+Image retouching and manipulation
+Mockup design
+CAREER HIGHLIGHTS
+Completed the Advanced Diploma in Software Engineering with Distinction.
+Completed a B.Sc. in Industrial Mathematics with a Second Class Lower Division.
+Developed practical experience across responsive front-end development, graphic design, branding and UI design.
+Continued expanding knowledge of front-end technologies and design tools through ongoing learning.
+PROFESSIONAL OBJECTIVE
+To contribute front-end development, UI/UX and graphic design capabilities to an organization building useful,
+accessible and engaging digital experiences. Apply sound visual judgment and practical web development skills to
+create clear interfaces, responsive layouts and communication materials that support real user needs and
+organizational goals.
+Continue developing as a software and design professional through collaborative work, thoughtful feedback and
+ongoing learning. Strengthen technical depth in modern front-end development while maintaining a strong
+foundation in usability, visual communication, clean implementation and dependable delivery.
+ABOUT
+Technology and design appeal to me because they combine imagination with practical problem-solving. I enjoy
+understanding what a person or organization needs to communicate, then shaping that intention into an experience
+that is clear, useful and visually coherent. I value work where both the details and the overall purpose matter.
+My academic background in Industrial Mathematics has helped me develop an analytical and structured way of
+thinking. Studying software engineering and working in graphic design have added technical and creative
+dimensions to that foundation. Together, these experiences influence how I approach new challenges: break them
+down, understand the constraints, consider the audience and work toward a solution that is functional, effective,
+visually appealling and purposeful.
+I am especially interested in the relationship between design and implementation. I enjoy exploring layout,
+typography, hierarchy and interaction, and understanding how those choices translate into responsive interfaces
+and useful visual communication. I remain curious about new modern tools, technologies and methods, welcome
+constructive input/criticisms, and see continued learning as part of producing better work.
+DESIGN & DEVELOPMENT PHILOSOPHY
+Begin with people and purpose
+Good design and development start with a clear understanding of the audience, the information they need and
+the outcome the work should support. I consider the purpose of a page or visual before choosing its structure,
+layout, content order or presentation. This helps keep decisions focused and makes the final experience easier
+to understand and use.
+Make clarity part of the visual design
+Typography, spacing, contrast, alignment and visual hierarchy are practical tools for guiding attention. I aim to
+use these elements consistently so that content feels organized, important information is easy to find and the
+interface communicates with confidence. **A polished appearance should reinforce meaning rather than compete
+with it**.
+Design for different screens and accessibility
+A digital experience should remain legible and usable across phones, tablets and larger displays. I treat
+responsive behavior as part of the design from the outset and pay attention to semantic structure, readable
+content, keyboard access and inclusive interaction patterns. Accessibility awareness improves the experience for
+more people and encourages clearer implementation.
+Build with care for the details behind the interface
+Maintainable structure, reusable components, consistent patterns and considered performance all contribute to a
+dependable experience. I value clean, understandable code and deliberate implementation because these
+qualities make an interface easier to refine, support and extend as requirements change.
+Deliver complete and dependable work
+I consider delivery part of quality: clarify expectations, organize the work into manageable stages, communicate
+progress and review the finished result against its requirements. I welcome feedback, make considered
+refinements and aim to deliver polished, complete work on time with a clear handoff so it can be used and
+maintained confidently.
+EDUCATION
+TECHNICAL SKILLS
+FRONT-END TECHNOLOGIES
+HTML5, CSS3, OO-CSS, BEM
+JavaScript (ES6+, ESNext)
+React.js, Vue.js, Next.js
+TypeScript
+Angular
+JQuery/JSON
+DOM and Browser APIs
+REST APIs
+Bootstrap CSS, Tailwind CSS, Sass
+Git & GitHub
+Netlify & Vercel
+Responsive Web Design
+Web Performance Optimization
+OGP & Search Engine Optimization (SEO)
+DESIGN
+Graphic design
+UI design
+UX design
+Web design
+Brand identity
+Typography
+Color theory
+Layout & composition
+Responsive design
+TOOLS & PLATFORMS
+Figma
+Adobe Photoshop
+CorelDRAW
+Canva
+Visual Studio Code
+Git & GitHub
+Microsoft Office
+PROGRAMMING & SOFTWARE FOUNDATIONS
+Python
+Node.js
+Component-based UI
+Cross-browser development
+Web accessibility awareness
+Performance awareness
+PROFESSIONAL STRENGTHS
+Creative problem-solving
+Analytical and critical thinking
+Attention to detail
+Time and project organization
+Team collaboration
+Effective communication
+Adaptability and quick learning
+User-centered mindset
+Accepts constructive feedback
+Reliability and deadline management
+CERTIFICATIONS &
+RECOGNITION
+Advanced Diploma in Software Engineering
+Aptech Computer Education · Distinction
+Completed March 2023
+Graphic Designing with Adobe Graphic Design
+Softwares
+Yumarib Concept · Training ended
+Completed December 2025
+LANGUAGES
+English Professional Level Fluency
+Yoruba Professional Level Fluency
+ADDITIONAL INFORMATION
+EMPLOYMENT STATUS
+Not currently employed
+ADDRESS
+Lagos 102216, Nigeria
+AVAILABILITY
+Freelance · Remote · Contract · Full-time
+INDUSTRY INTERESTS
+Software development · | · Media and communications
+· | · Graphic and print design
+NYSC
+Not applicable
+REFERENCES
+Available upon request
+Emmanuel Olusoga .A eolusoga2@gmail.com ⎙Print / Save PDF
+EMMANUEL OLUSOGA AKINOLA FRONT-END DEVELOPER
+　
+|
+　
+REACT.JS DEVELOPER
+　
+|
+　
+WEB UI DESIGNER
+　
+|
+　
+UI/UX DESIGNER
+　
+|
+　
+GRAPHIC DESIGNER
+　
+|
+　
+JUNIOR GRAPHIC DESIGNER HTML5
+　
+|
+　
+CSS3
+　
+|
+　
+JAVASCRIPT
+　
+|
+　
+TYPESCRIPT
+　
+|
+　
+REACT
+　
+|
+　
+BOOTSTRAP
+　
+|
+　
+PYTHON
+　
+|
+　
+NODE.JS
+　
+|
+　
+GIT
+　
+|
+　
+GITHUB
+　
+|
+　
+FIGMA
+　
+|
+　
+PHOTOSHOP
+　
+|
+　
+CORELDRAW
+　
+|
+　
+CANVA
+| | |
+University of Lagos (UNILAG)
+Akoka, Lagos, Nigeria
+Bachelor of Science (B.Sc.), Industrial
+Mathematics
+Applied & Computational Mathematics Option
+Second Class Lower Division
+October 2019 – September 2025
+The programme where I developed analytical
+and quantitative problem-solving skills through
+Mathematical and Computational study.
+Aptech Computer Education
+Maryland, Lagos, Nigeria
+Advanced Diploma in Software Engineering
+(ADSE)
+Distinction
+June 2020 – December 2023
+Professional software engineering programme I
+completed at Aptech's ACE-Lagos-1 centre.
+
+WhatsApp: 234 9074395764
+
+Phone: 234 9124426909
+
+LinkedIn: https://linkedin.com/in/emmanuel-olusoga
+
+Portfolio Website: https://emmanuel-804.netlify.app/
+
+Address: Lagos, Lagos State, Nigeria.
+
+Email: eolusoga2@gmail.com
+
+GitHub: https://github.com/eolusoga-804?tab=repositories
+
+Jog Types: Freelance · Remote · Contract · Full-time
+
+Hire Me Button (this should generate a whatsApp message)
+
+Download CV/Resume Button to download my cv/resume document.
