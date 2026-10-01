@@ -5,6 +5,7 @@
   min-height: 100vh;
   place-items: center;
   padding-block: 0.75rem;
+  padding-inline: max(0.75rem, env(safe-area-inset-left)) 5rem;
 }
 
 .profile-card {
@@ -356,6 +357,11 @@
   .profile-card__actions {
     grid-area: actions;
     margin-top: 0;
+  }
+
+  .profile-page {
+    padding-inline: max(0.75rem, env(safe-area-inset-left))
+      max(0.75rem, env(safe-area-inset-right));
   }
 }
 
