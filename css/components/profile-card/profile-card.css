@@ -222,3 +222,43 @@
     transform: none;
   }
 }
+
+@media (min-width: 50rem) {
+  .profile-card {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    grid-template-areas:
+      "header about"
+      "header skills"
+      "socials socials"
+      "actions actions";
+    align-items: center;
+    column-gap: clamp(0.75rem, 2vw, 1.25rem);
+    row-gap: 0.85rem;
+  }
+
+  .profile-card__header {
+    grid-area: header;
+  }
+
+  .profile-card__about {
+    grid-area: about;
+    max-width: none;
+    margin: 0;
+  }
+
+  .skill-badges {
+    grid-area: skills;
+    margin-top: 0;
+  }
+
+  .profile-card__socials {
+    grid-area: socials;
+    margin-top: 0.25rem;
+  }
+
+  .profile-card__actions {
+    grid-area: actions;
+    margin-top: 0;
+  }
+}
