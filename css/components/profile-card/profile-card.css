@@ -36,10 +36,7 @@
 
 .profile-card__avatar {
   display: block;
-  width: clamp(7rem, 28vw, 10rem);
   max-width: 100%;
-  aspect-ratio: 1 / 1;
-  height: auto;
   margin-bottom: 0.8rem;
   border: 3px solid var(--color-accent);
   border-radius: 1.25rem;
@@ -49,6 +46,9 @@
     transform var(--motion-fast),
     border-color var(--motion-fast),
     box-shadow var(--motion-fast);
+  width: clamp(192px, 28vw, 14rem);
+  aspect-ratio: 1 / 1;
+  height: auto;
 }
 
 .profile-card__avatar:hover {
