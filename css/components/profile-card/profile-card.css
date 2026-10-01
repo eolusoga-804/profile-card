@@ -35,18 +35,26 @@
 }
 
 .profile-card__avatar {
-  width: clamp(6.5rem, 24vw, 9rem);
-  aspect-ratio: 1;
+  display: block;
+  width: clamp(7rem, 28vw, 10rem);
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
   margin-bottom: 0.8rem;
   border: 3px solid var(--color-accent);
-  border-radius: 50%;
+  border-radius: 1.25rem;
   object-fit: cover;
   box-shadow: 0 0 0 7px var(--color-accent-soft);
-  transition: transform var(--motion-fast);
+  transition:
+    transform var(--motion-fast),
+    border-color var(--motion-fast),
+    box-shadow var(--motion-fast);
 }
 
 .profile-card__avatar:hover {
   transform: scale(1.04);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 1.25rem var(--color-accent-soft);
 }
 
 .profile-card__eyebrow {
