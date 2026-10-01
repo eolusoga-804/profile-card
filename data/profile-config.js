@@ -1,7 +1,7 @@
 window.PROFILE_CONFIG = {
   site: {
     name: "Emmanuel Olusoga",
-    title: "Emmanuel Olusoga | Front-End Developer & Designer",
+    title: "Emmanuel Olusoga | Front-End & React.js Developer",
     description:
       "Emmanuel Olusoga is a Lagos-based front-end developer, React.js developer, UI/UX designer, and graphic designer creating responsive digital experiences.",
     url: "https://profile-card-eolusoga2.netlify.app/",
@@ -12,7 +12,7 @@ window.PROFILE_CONFIG = {
   profile: {
     name: "Emmanuel Olusoga .A",
     availability: "Available for opportunities",
-    role: "Front-End Developer · UI/UX Designer",
+    role: "Front-End Developer · React.js Developer · UI/UX Designer",
     avatar: {
       src: "images/avatar.webp",
       alt: "Portrait of Emmanuel Olusoga",
