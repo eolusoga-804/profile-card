@@ -1,4 +1,6 @@
 .ambient-background {
+  --grid-cell-size: 42px;
+
   position: fixed;
   z-index: 0;
   inset: 0;
@@ -15,8 +17,11 @@
       color-mix(in srgb, var(--color-accent) 24%, transparent) 1px,
       transparent 1px
     );
-  background-position: center;
-  background-size: 42px 42px;
+  background-position:
+    0 0,
+    0 0;
+  background-size: var(--grid-cell-size) var(--grid-cell-size);
+  animation: grid-drift 18s linear infinite;
 }
 
 .ambient-background__orb {
@@ -76,6 +81,14 @@
   animation: orb-drift-lime 18s ease-in-out -9s infinite alternate;
 }
 
+@keyframes grid-drift {
+  to {
+    background-position:
+      var(--grid-cell-size) var(--grid-cell-size),
+      var(--grid-cell-size) var(--grid-cell-size);
+  }
+}
+
 @keyframes orb-drift-blue {
   to {
     transform: translate3d(24vw, 22vh, 0) scale(1.18);
@@ -108,7 +121,7 @@
 
 @media (max-width: 600px) {
   .ambient-background {
-    background-size: 32px 32px;
+    --grid-cell-size: 32px;
   }
 
   .ambient-background__orb {
@@ -119,6 +132,10 @@
 
 @media (prefers-reduced-motion: reduce) {
   .ambient-background__orb {
+    animation: none;
+  }
+
+  .ambient-background {
     animation: none;
   }
 }
