@@ -19,6 +19,10 @@
   --focus-ring: 0 0 0 3px var(--color-page), 0 0 0 6px var(--color-accent);
 
   --motion-fast: 180ms ease;
+
+  --glass-highlight: rgb(255 255 255 / 52%);
+  --glass-highlight-strong: rgb(255 255 255 / 68%);
+  --glass-highlight-soft: rgb(255 255 255 / 18%);
 }
 
 :root[data-theme="dark"] {
@@ -34,4 +38,8 @@
   --color-whatsapp: #25a764;
 
   --shadow-card: 0 1.5rem 4rem rgb(0 0 0 / 38%);
+
+  --glass-highlight: rgb(255 255 255 / 28%);
+  --glass-highlight-strong: rgb(255 255 255 / 42%);
+  --glass-highlight-soft: rgb(255 255 255 / 10%);
 }
