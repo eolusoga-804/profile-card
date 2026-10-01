@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://profile-card-eolusoga2.netlify.app/sitemap.xml
