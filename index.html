@@ -47,6 +47,10 @@
       rel="stylesheet"
       href="css/components/ambient-background/ambient-background.css"
     />
+    <link
+      rel="stylesheet"
+      href="css/components/skill-badges/skill-badges.css"
+    />
   </head>
 
   <body>
@@ -96,6 +100,19 @@
           <p class="profile-card__bio" data-profile="aboutText"></p>
         </section>
 
+        <section class="skill-badges" aria-labelledby="skill-badges-heading">
+          <h2
+            class="skill-badges__heading"
+            id="skill-badges-heading"
+            data-profile="expertiseHeading"
+          ></h2>
+          <ul
+            class="skill-badges__list"
+            data-profile-list="skills"
+            aria-label="Core expertise"
+          ></ul>
+        </section>
+
         <nav
           class="profile-card__socials"
           data-profile-list="socials"
@@ -113,6 +130,7 @@
 
     <script src="data/profile-config.js"></script>
     <script src="js/render-profile.js"></script>
+    <script src="js/render-skills.js"></script>
     <script src="js/theme-toggle.js"></script>
   </body>
 </html>

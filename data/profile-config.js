@@ -91,4 +91,15 @@ window.PROFILE_CONFIG = {
       icon: "fa-solid fa-download",
     },
   ],
+  expertise: {
+    heading: "Core expertise",
+    skills: [
+      "Front-End Development",
+      "React.js",
+      "Responsive Web Design",
+      "UI/UX Design",
+      "Graphic Design",
+      "Brand Identity",
+    ],
+  },
 };
