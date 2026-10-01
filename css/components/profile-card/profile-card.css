@@ -79,7 +79,6 @@
 .profile-card__avatar {
   display: block;
   width: clamp(192px, 28vw, 14rem);
-  max-width: 100%;
   aspect-ratio: 1 / 1;
   height: auto;
   margin-bottom: 0.8rem;
