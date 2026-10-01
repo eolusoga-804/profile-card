@@ -149,12 +149,9 @@
 
 .profile-card__button {
   display: inline-flex;
-  width: min(100%, 18.75rem);
-  min-height: 2.8rem;
   align-items: center;
   justify-content: center;
   gap: 0.55rem;
-  padding: 0.65rem 1.1rem;
   border: 1px solid transparent;
   border-radius: var(--radius-control);
   font-weight: 700;
@@ -163,6 +160,10 @@
     transform var(--motion-fast),
     box-shadow var(--motion-fast),
     background-color var(--motion-fast);
+  width: min(100%, 10rem);
+  min-height: 2.6rem;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.9rem;
 }
 
 .profile-card__button:hover {
