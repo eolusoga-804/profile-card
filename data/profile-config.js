@@ -19,7 +19,7 @@ window.PROFILE_CONFIG = {
     },
     about: {
       heading: "Short Intro",
-      text: "I combine front-end development, design, and analytical thinking to create clear, responsive digital experiences. I enjoy turning people’s needs into useful interfaces with thoughtful visual detail.",
+      text: "I combine front-end development, design, and analytical thinking to create clear, responsive digital experiences. I enjoy turning people’s needs into useful interfaces with thoughtful visual detail. I also build reusable React.js interfaces with a focus on usability and performance.",
     },
     location: "Lagos, Nigeria",
     professionalTitles: [
