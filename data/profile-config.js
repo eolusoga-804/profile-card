@@ -1,8 +1,12 @@
 window.PROFILE_CONFIG = {
   site: {
+    name: "Emmanuel Olusoga",
     title: "Emmanuel Olusoga | Front-End Developer & Designer",
     description:
-      "Emmanuel Olusoga is a front-end developer and graphic designer based in Lagos, Nigeria.",
+      "Emmanuel Olusoga is a Lagos-based front-end developer, React.js developer, UI/UX designer, and graphic designer creating responsive digital experiences.",
+    url: "https://profile-card-eolusoga2.netlify.app/",
+    socialImage:
+      "https://profile-card-eolusoga2.netlify.app/images/avatar.webp",
   },
 
   profile: {
@@ -18,6 +22,12 @@ window.PROFILE_CONFIG = {
       text: "I combine front-end development, design, and analytical thinking to create clear, responsive digital experiences. I enjoy turning people’s needs into useful interfaces with thoughtful visual detail.",
     },
     location: "Lagos, Nigeria",
+    professionalTitles: [
+      "Front-End Developer",
+      "React.js Developer",
+      "UI/UX Designer",
+      "Graphic Designer",
+    ],
   },
 
   contact: {
@@ -98,6 +108,7 @@ window.PROFILE_CONFIG = {
       icon: "fa-solid fa-download",
     },
   ],
+
   expertise: {
     heading: "Core expertise",
     skills: [
