@@ -4,13 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      name="description"
-      content="Emmanuel Olusoga is a front-end developer and graphic designer based in Lagos, Nigeria."
-    />
+    <meta name="description" content="" data-profile-meta="description" />
     <meta name="theme-color" content="#f4f6fa" />
 
-    <title>Emmanuel Olusoga | Front-End Developer &amp; Designer</title>
+    <title data-profile="pageTitle"></title>
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -48,104 +45,52 @@
         class="ambient-background__orb ambient-background__orb--lime"
       ></span>
     </div>
+
     <main class="profile-page">
       <article class="profile-card" aria-labelledby="profile-name">
         <header class="profile-card__header">
           <img
             class="profile-card__avatar"
-            src="images/avatar.webp"
-            alt="Portrait of Emmanuel Olusoga"
+            data-profile-image="avatar"
             width="300"
             height="300"
           />
 
-          <p class="profile-card__eyebrow">Available for opportunities</p>
-          <h1 class="profile-card__name" id="profile-name">
-            Emmanuel Olusoga .A
-          </h1>
-          <p class="profile-card__role">
-            Front-End Developer <span aria-hidden="true">·</span> UI/UX Designer
-          </p>
+          <p class="profile-card__eyebrow" data-profile="availability"></p>
+          <h1
+            class="profile-card__name"
+            id="profile-name"
+            data-profile="name"
+          ></h1>
+          <p class="profile-card__role" data-profile="role"></p>
         </header>
 
         <section class="profile-card__about" aria-labelledby="about-heading">
-          <h2 class="profile-card__section-title" id="about-heading">About</h2>
-          <p class="profile-card__bio">
-            I combine front-end development, design, and analytical thinking to
-            create clear, responsive digital experiences. I enjoy turning
-            people’s needs into useful interfaces with thoughtful visual detail.
-          </p>
+          <h2
+            class="profile-card__section-title"
+            id="about-heading"
+            data-profile="aboutHeading"
+          ></h2>
+          <p class="profile-card__bio" data-profile="aboutText"></p>
         </section>
 
         <nav
           class="profile-card__socials"
-          aria-label="Contact and social links"
-        >
-          <a
-            class="profile-card__social-link profile-card__social-link--whatsapp"
-            href="https://wa.me/2349074395764"
-            target="_blank"
-            rel="noreferrer"
-          >
-            WhatsApp
-          </a>
-          <a class="profile-card__social-link" href="tel:+2349124416909">
-            Phone
-          </a>
-          <a
-            class="profile-card__social-link"
-            href="https://linkedin.com/in/emmanuel-olusoga"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a
-            class="profile-card__social-link"
-            href="https://github.com/eolusoga-804"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-          <a
-            class="profile-card__social-link"
-            href="https://emmanuel-804.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Portfolio
-          </a>
-        </nav>
+          data-profile-list="socials"
+          aria-label=""
+        ></nav>
 
-        <footer class="profile-card__actions">
-          <a
-            class="profile-card__button profile-card__button--whatsapp"
-            href="https://wa.me/2349074395764?text=Hello%20Emmanuel%2C%20I%27d%20like%20to%20discuss%20a%20project%20or%20opportunity%20with%20you."
-            target="_blank"
-            rel="noreferrer"
-          >
-            Hire Me
-          </a>
-          <a
-            class="profile-card__button profile-card__button--secondary"
-            href="docs/resume.pdf"
-            download
-          >
-            Download CV
-          </a>
-        </footer>
+        <footer
+          class="profile-card__actions"
+          data-profile-list="actions"
+        ></footer>
       </article>
 
-      <button
-        class="theme-toggle"
-        type="button"
-        aria-label="Switch to dark theme"
-        aria-pressed="false"
-      >
-        Theme
-      </button>
+      <button class="theme-toggle" type="button"></button>
     </main>
+
+    <script src="data/profile-config.js"></script>
+    <script src="js/render-profile.js"></script>
     <script src="js/theme-toggle.js"></script>
   </body>
 </html>
