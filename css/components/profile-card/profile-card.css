@@ -1,0 +1,203 @@
+.profile-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: clamp(1rem, 4vw, 3rem);
+}
+
+.profile-card {
+  width: min(100%, 38rem);
+  padding: clamp(1.5rem, 5vw, 3.25rem);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: color-mix(in srgb, var(--color-surface) 78%, transparent);
+  box-shadow: var(--shadow-card);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  backdrop-filter: blur(24px) saturate(150%);
+  text-align: center;
+  transition:
+    transform var(--motion-fast),
+    border-color var(--motion-fast),
+    box-shadow var(--motion-fast);
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: 0 2rem 5rem rgb(21 40 73 / 16%);
+}
+
+.profile-card__header {
+  display: grid;
+  justify-items: center;
+}
+
+.profile-card__avatar {
+  width: clamp(6.5rem, 24vw, 9rem);
+  aspect-ratio: 1;
+  margin-bottom: 1.5rem;
+  border: 3px solid var(--color-accent);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 7px var(--color-accent-soft);
+  transition: transform var(--motion-fast);
+}
+
+.profile-card__avatar:hover {
+  transform: scale(1.04);
+}
+
+.profile-card__eyebrow {
+  margin-bottom: 0.75rem;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.profile-card__name {
+  font-size: clamp(1.8rem, 7vw, 2.7rem);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+}
+
+.profile-card__role {
+  margin-top: 0.7rem;
+  color: var(--color-text-muted);
+  font-size: clamp(0.95rem, 3vw, 1.1rem);
+  font-weight: 600;
+}
+
+.profile-card__role span {
+  padding-inline: 0.25rem;
+  color: var(--color-accent);
+}
+
+.profile-card__about {
+  max-width: 31rem;
+  margin: 2rem auto 0;
+}
+
+.profile-card__section-title {
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.profile-card__bio {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.profile-card__socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+  margin-top: 1.75rem;
+}
+
+.profile-card__social-link {
+  display: inline-flex;
+  min-height: 2.65rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+  background: color-mix(in srgb, var(--color-surface) 65%, transparent);
+  color: var(--color-text);
+  font-size: 0.88rem;
+  font-weight: 650;
+  text-decoration: none;
+  transition:
+    transform var(--motion-fast),
+    border-color var(--motion-fast),
+    background-color var(--motion-fast),
+    color var(--motion-fast);
+}
+
+.profile-card__social-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+.profile-card__social-link--whatsapp {
+  border-color: var(--color-whatsapp);
+  color: var(--color-whatsapp);
+}
+
+.profile-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.profile-card__button {
+  display: inline-flex;
+  width: min(100%, 18.75rem);
+  min-height: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.4rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform var(--motion-fast),
+    box-shadow var(--motion-fast),
+    background-color var(--motion-fast);
+}
+
+.profile-card__button:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 0.7rem 1.5rem rgb(21 40 73 / 16%);
+}
+
+.profile-card__button--whatsapp {
+  background: var(--color-whatsapp);
+  color: #fff;
+}
+
+.profile-card__button--secondary {
+  border-color: var(--color-border);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+.profile-card__social-link:focus-visible,
+.profile-card__button:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-card,
+  .profile-card__avatar,
+  .profile-card__social-link,
+  .profile-card__button {
+    transition: none;
+  }
+
+  .profile-card:hover,
+  .profile-card__avatar:hover,
+  .profile-card__social-link:hover,
+  .profile-card__button:hover {
+    transform: none;
+  }
+}
