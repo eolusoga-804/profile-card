@@ -201,3 +201,8 @@
     transform: none;
   }
 }
+
+.profile-page {
+  position: relative;
+  z-index: 1;
+}

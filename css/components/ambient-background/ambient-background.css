@@ -1,0 +1,124 @@
+.ambient-background {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in srgb, var(--color-accent) 24%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--color-accent) 24%, transparent) 1px,
+      transparent 1px
+    );
+  background-position: center;
+  background-size: 42px 42px;
+}
+
+.ambient-background__orb {
+  position: absolute;
+  display: block;
+  width: clamp(12rem, 25vw, 25rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    var(--orb-color) 0%,
+    color-mix(in srgb, var(--orb-color) 35%, transparent) 34%,
+    transparent 72%
+  );
+  filter: blur(12px);
+  opacity: 0.76;
+  will-change: transform;
+}
+
+.ambient-background__orb--blue {
+  --orb-color: #1677ff;
+
+  top: -10%;
+  left: -8%;
+  animation: orb-drift-blue 17s ease-in-out infinite alternate;
+}
+
+.ambient-background__orb--pink {
+  --orb-color: #ff35b8;
+
+  top: 4%;
+  right: -10%;
+  animation: orb-drift-pink 21s ease-in-out -6s infinite alternate;
+}
+
+.ambient-background__orb--cyan {
+  --orb-color: #00d9ff;
+
+  top: 42%;
+  left: 28%;
+  animation: orb-drift-cyan 19s ease-in-out -11s infinite alternate;
+}
+
+.ambient-background__orb--orange {
+  --orb-color: #ff8a27;
+
+  right: 8%;
+  bottom: -16%;
+  animation: orb-drift-orange 23s ease-in-out -4s infinite alternate;
+}
+
+.ambient-background__orb--lime {
+  --orb-color: #b4ff35;
+
+  bottom: -18%;
+  left: -12%;
+  animation: orb-drift-lime 18s ease-in-out -9s infinite alternate;
+}
+
+@keyframes orb-drift-blue {
+  to {
+    transform: translate3d(24vw, 22vh, 0) scale(1.18);
+  }
+}
+
+@keyframes orb-drift-pink {
+  to {
+    transform: translate3d(-23vw, 30vh, 0) scale(0.86);
+  }
+}
+
+@keyframes orb-drift-cyan {
+  to {
+    transform: translate3d(15vw, -32vh, 0) scale(1.22);
+  }
+}
+
+@keyframes orb-drift-orange {
+  to {
+    transform: translate3d(-27vw, -20vh, 0) scale(1.12);
+  }
+}
+
+@keyframes orb-drift-lime {
+  to {
+    transform: translate3d(30vw, -25vh, 0) scale(0.9);
+  }
+}
+
+@media (max-width: 600px) {
+  .ambient-background {
+    background-size: 32px 32px;
+  }
+
+  .ambient-background__orb {
+    width: clamp(12rem, 58vw, 19rem);
+    opacity: 0.68;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-background__orb {
+    animation: none;
+  }
+}
