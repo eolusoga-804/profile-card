@@ -8,6 +8,7 @@ const profileText = {
   aboutHeading: config.profile.about.heading,
   aboutText: config.profile.about.text,
   expertiseHeading: config.expertise.heading,
+  location: config.profile.location,
 };
 
 document.querySelectorAll("[data-profile]").forEach((element) => {
