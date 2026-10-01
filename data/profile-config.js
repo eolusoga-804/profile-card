@@ -48,8 +48,6 @@ window.PROFILE_CONFIG = {
     resumeButton: "Download CV",
     switchToLight: "Switch to light theme",
     switchToDark: "Switch to dark theme",
-    useLight: "Use light theme",
-    useDark: "Use dark theme",
     themeIconLight: "fa-solid fa-sun",
     themeIconDark: "fa-solid fa-moon",
   },

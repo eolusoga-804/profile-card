@@ -37,7 +37,7 @@ if (themeToggle && profileConfig) {
         ? profileConfig.labels.useLight
         : profileConfig.labels.useDark;
 
-    themeToggle.replaceChildren(themeIcon, themeLabel);
+    themeToggle.replaceChildren(themeIcon);
 
     if (shouldSave) {
       try {

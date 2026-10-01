@@ -78,7 +78,7 @@ config.socials.forEach((social) => {
     addIcon(link, social.icon);
   }
 
-  addVisibleLabel(link, social.label);
+  link.setAttribute("aria-label", social.label);
 
   if (social.modifier) {
     link.classList.add(`profile-card__social-link--${social.modifier}`);
