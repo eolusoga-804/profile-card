@@ -62,3 +62,11 @@
     transform: none;
   }
 }
+
+@supports not (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
+  .skill-badges__item {
+    background: var(--color-surface);
+  }
+}

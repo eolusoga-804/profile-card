@@ -62,3 +62,9 @@
     transform: translateY(-50%);
   }
 }
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .theme-toggle {
+    background: var(--color-surface);
+  }
+}

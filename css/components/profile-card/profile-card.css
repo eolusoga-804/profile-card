@@ -354,3 +354,26 @@
     margin-top: 0;
   }
 }
+
+@supports not (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
+  .profile-card {
+    background: var(--color-surface);
+  }
+
+  .profile-card::before {
+    display: none;
+  }
+
+  .profile-card__eyebrow,
+  .profile-card__social-link,
+  .profile-card__button,
+  .profile-card__button--secondary {
+    background: var(--color-surface);
+  }
+
+  .profile-card__button--whatsapp {
+    background: var(--color-whatsapp);
+  }
+}
