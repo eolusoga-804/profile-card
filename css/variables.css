@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light;
+
+  --color-page: #f4f6fa;
+  --color-surface: #ffffff;
+  --color-text: #172033;
+  --color-text-muted: #5e687b;
+  --color-accent: #174ea6;
+  --color-accent-soft: #e5edfa;
+  --color-border: rgb(23 78 166 / 28%);
+  --color-whatsapp: #168a53;
+
+  --font-sans: "Segoe UI", Arial, sans-serif;
+
+  --radius-card: 2rem;
+  --radius-control: 999px;
+
+  --shadow-card: 0 1.5rem 4rem rgb(21 40 73 / 12%);
+  --focus-ring: 0 0 0 3px var(--color-page), 0 0 0 6px var(--color-accent);
+
+  --motion-fast: 180ms ease;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --color-page: #101311;
+  --color-surface: #191e1b;
+  --color-text: #f0f5f1;
+  --color-text-muted: #b0beb5;
+  --color-accent: #16875f;
+  --color-accent-soft: #1b332a;
+  --color-border: rgb(39 171 119 / 42%);
+  --color-whatsapp: #25a764;
+
+  --shadow-card: 0 1.5rem 4rem rgb(0 0 0 / 38%);
+}
