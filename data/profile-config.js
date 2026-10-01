@@ -26,6 +26,7 @@ window.PROFILE_CONFIG = {
     github: "https://github.com/eolusoga-804",
     portfolio: "https://emmanuel-804.netlify.app/",
     resume: "docs/resume.pdf",
+    email: "eolusoga2@gmail.com",
   },
 
   labels: {
@@ -49,6 +50,11 @@ window.PROFILE_CONFIG = {
       modifier: "whatsapp",
       external: true,
       icon: "fa-brands fa-whatsapp",
+    },
+    {
+      label: "Email",
+      href: "email",
+      icon: "fa-solid fa-envelope",
     },
     {
       label: "Phone",

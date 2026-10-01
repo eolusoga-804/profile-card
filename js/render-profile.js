@@ -38,6 +38,10 @@ function getHref(key) {
     return `tel:${contact.phoneNumber}`;
   }
 
+  if (key === "email") {
+    return `mailto:${contact.email}`;
+  }
+
   return contact[key];
 }
 
