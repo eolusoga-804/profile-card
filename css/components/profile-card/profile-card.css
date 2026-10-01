@@ -92,8 +92,8 @@
 
 .profile-card__bio {
   color: var(--color-text-muted);
-  font-size: 0.94rem;
-  line-height: 1.55;
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
 .profile-card__socials {
